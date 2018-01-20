@@ -7,13 +7,17 @@ using Microsoft.AppCenter.Analytics;
 using Microsoft.AppCenter.Crashes;
 using Xamarin.Forms;
 
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
+
 namespace AppCenterSample
 {
     public partial class App : Application
     {
-        const string uwpKey = "2b977979-ebbc-40f8-b6d2-cddb98312ac1";
-        const string iosKey = "233ad039-4e6d-4baf-8824-3845db2f2907";
-        const string androidKey = "a981827b-441f-4ab1-990e-e582d18d60bf";
+        const string uwpKey = "c7cf3ca6-9d41-4f10-8394-36e6bafbff56";
+        const string iosKey = "65e278f2-90a1-4001-a72d-1f09889444c3";
+        const string androidKey = "aa118b57-66b8-4da8-989d-96c6c2543640";
 
         public App()
         {
