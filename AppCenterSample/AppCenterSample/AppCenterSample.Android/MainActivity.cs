@@ -7,10 +7,6 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 
-using Microsoft.AppCenter;
-using Microsoft.AppCenter.Analytics;
-using Microsoft.AppCenter.Crashes;
-
 namespace AppCenterSample.Droid
 {
     [Activity(Label = "AppCenterSample", Icon = "@drawable/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
